@@ -1,0 +1,419 @@
+.main-footer {
+  width: 100%;
+  height: auto;
+  /* background-color: #14161b; */
+  background-color: #334155;
+  position: absolute;
+}
+
+.instagram-title-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.instagram-title {
+  font-size: 36px;
+  color: #222;
+  font-weight: 700;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  height: 100%;
+}
+
+.footer-1 {
+  padding-top: 50px;
+}
+
+.logo-footer {
+  color: #fff;
+}
+
+.footer-circle {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 255, 255, 1);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  position: relative;
+  top: 40px;
+  right: 50px;
+}
+
+.footer-circle-1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 255, 255, 1);
+  border-radius: 50%;
+  position: relative;
+  top: 0;
+  right: 100px;
+}
+
+.footer-logo {
+  width: 165px;
+  height: auto;
+  position: relative;
+  bottom: -70px;
+  right: -20px;
+}
+
+.second-footer {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.footer-hr {
+  width: 50%;
+  margin-left: 25% !important;
+  margin-right: 25% !important;
+  /* background-color: #31333b; height: 1px; border: 0; */
+  background-color: #475569;
+  height: 1px;
+  border: 0;
+  margin-top: 40px;
+}
+
+.footer-desc {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.footer-privacy {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 20px;
+}
+
+.privacy {
+  font-size: 14px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 50px;
+}
+
+.ft-category.cat {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.ft-category {
+  font-weight: 400;
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+/* Baner */
+
+.baner-allegro {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  position: relative;
+  top: 150px;
+  z-index: 1;
+  margin-bottom: 80px;
+}
+
+.baner-a {
+  width: 1200px;
+  height: 360px;
+  background-color: #00a651;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  position: relative;
+  overflow: hidden;
+}
+
+.baner-title {
+  width: 30%;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 150px;
+  left: 50px;
+}
+
+.buy-in-allegro {
+  background-color: #ff5a00;
+  border: none;
+  width: 300px;
+  height: 60px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  bottom: 120px;
+  left: 250px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buy-in-allegro:hover {
+  background-color: #222;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: rgb(34, 34, 34, 0.2);
+  position: absolute;
+}
+
+.circle-1 {
+  width: 200px;
+  height: 200px;
+  bottom: -50px;
+  left: -40px;
+}
+
+.circle-2 {
+  width: 100px;
+  height: 100px;
+  top: -25px;
+  right: 500px;
+}
+
+.circle-3 {
+  width: 120px;
+  height: 120px;
+  top: -30px;
+  left: 200px;
+}
+
+.circle-4 {
+  width: 120px;
+  height: 120px;
+  bottom: 50px;
+  left: 600px;
+}
+
+.circle-5 {
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  left: 340px;
+}
+
+/* baner mobile */
+@media (max-width: 1310px) {
+  .baner-allegro {
+    padding-top: 0px;
+  }
+
+  .baner-a {
+    width: 1000px;
+    height: 360px;
+  }
+
+  .circle-4 {
+    display: none;
+  }
+  .circle-5 {
+    display: none;
+  }
+
+  .buy-in-allegro {
+    width: 300px;
+    height: 60px;
+    bottom: 80px;
+    left: 160px;
+  }
+
+  .instagram-title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 1095px) {
+  .baner-a {
+    width: 800px;
+    height: 300px;
+  }
+
+  .circle-1 {
+    display: none;
+  }
+  .circle-2 {
+    display: none;
+  }
+  .circle-3 {
+    display: none;
+  }
+
+  .buy-in-allegro {
+    width: 300px;
+    height: 60px;
+    bottom: 70px;
+    left: 80px;
+  }
+
+  .instagram-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 870px) {
+  .baner-a {
+    width: 600px;
+    height: 260px;
+  }
+
+  .buy-in-allegro {
+    width: 200px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .baner-title {
+    font-size: 26px;
+    bottom: 120px;
+    left: 50px;
+  }
+  .instagram-title {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 655px) {
+  .baner-a {
+    width: 450px;
+    height: 200px;
+  }
+
+  .buy-in-allegro {
+    width: 120px;
+    bottom: 20px;
+    left: 20px;
+    font-size: 12px;
+  }
+
+  .baner-title {
+    font-size: 18px;
+    bottom: 100px;
+    left: 20px;
+  }
+
+  .instagram-title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 525px) {
+  .baner-a {
+    width: 350px;
+    height: 170px;
+  }
+
+  .buy-in-allegro {
+    width: 80px;
+    bottom: 20px;
+    left: 20px;
+    font-size: 12px;
+  }
+
+  .baner-title {
+    font-size: 14px;
+    bottom: 100px;
+    left: 10px;
+  }
+
+  .instagram-title {
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/* footer mobile */
+@media (max-width: 1185px) {
+  .ft-category.cat {
+    font-size: 20px;
+  }
+
+  .ft-category {
+    font-size: 14px;
+  }
+  .footer-1 {
+    margin: 0 5px;
+  }
+
+  .second-footer {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media (max-width: 715px) {
+  .footer-circle {
+    display: none;
+  }
+
+  .footer-circle-1 {
+    display: none;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+
+  .privacy {
+    font-size: 12px;
+  }
+
+  .ft-category.cat {
+    font-size: 16px;
+  }
+  .ft-category {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 510px) {
+  .ft-category.cat {
+    font-size: 14px;
+  }
+
+  .ft-category {
+    font-size: 10px;
+  }
+  .footer-1 {
+    margin: 0 5px;
+  }
+  .privacy {
+    font-size: 8px;
+  }
+
+  .footer-circle {
+    display: none;
+  }
+
+  .footer-circle-1 {
+    display: none;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+}

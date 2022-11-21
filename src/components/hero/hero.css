@@ -1,0 +1,219 @@
+.heroTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.mainTitle {
+  color: #222;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.hero-desc {
+  color: #222;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+.heroCards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 80px;
+}
+
+.leftCardWrap {
+  width: 550px;
+  height: 697px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.midCardWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+.rightCardWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+.smallCard {
+  width: 350px;
+  height: 200px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.card {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  transition: 0.3s;
+  cursor: pointer;
+  border-top: 2px solid #00a651;
+}
+
+/* PRODUCT CARDS */
+
+/* chilis */
+
+.productCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.subTitle {
+  font-size: 38px;
+  font-weight: 700;
+  color: #222;
+}
+
+/* mini card */
+
+.productSubCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.smallImg {
+  width: 135px;
+  height: auto;
+}
+
+.smallCardTitle {
+  color: #222;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 5px;
+}
+
+hr {
+  width: 30%;
+  background-color: #00a651;
+  height: 2px;
+  border: 0;
+}
+
+.last {
+  visibility: hidden;
+}
+
+@media (max-width: 1325px) {
+  .heroCards {
+    margin: 0 auto;
+  }
+  .leftCardWrap {
+    display: none;
+  }
+
+  .ls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2rem;
+  }
+  .last {
+    visibility: visible;
+  }
+}
+
+@media (max-width: 780px) {
+  .heroCards {
+    gap: 20px;
+  }
+
+  .smallCard {
+    width: 250px;
+    height: 160px;
+  }
+
+  .smallImg {
+    width: 125px;
+    height: auto;
+  }
+}
+
+@media (max-width: 615px) {
+  .mainTitle {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 560px) {
+  .heroCards {
+    gap: 10px;
+  }
+
+  .smallCard {
+    width: 200px;
+    height: 120px;
+  }
+
+  .smallImg {
+    width: 90px;
+    height: auto;
+  }
+
+  .smallCardTitle {
+    font-size: 16px;
+  }
+
+  .mainTitle {
+    font-size: 24px;
+  }
+}
+@media (max-width: 465px) {
+  .mainTitle {
+    font-size: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 440px) {
+  .heroCards {
+    gap: 5px;
+  }
+
+  .smallCard {
+    width: 180px;
+    height: 110px;
+  }
+
+  .smallImg {
+    width: 85px;
+    height: auto;
+  }
+}
+
+@media (max-width: 380px) {
+  .smallCard {
+    width: 160px;
+    height: 100px;
+  }
+
+  .smallImg {
+    width: 75px;
+    height: auto;
+  }
+}

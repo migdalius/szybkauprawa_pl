@@ -1,0 +1,45 @@
+.app__AdminIndex-main-container {
+  height: auto;
+}
+
+.app__AdminIndex-content-container {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.app__AdminIndex-contanet-wrap {
+  display: flex;
+  justify-content: center;
+  width: 1600px;
+}
+
+.app__AdminIndex-sidebar {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.app__AdminIndex-sidebar-content {
+  background-color: #fff;
+  width: 200px;
+}
+
+.app__AdminIndex-content {
+  width: 1200px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1770px) {
+  .app__AdminIndex-content {
+    width: 900px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .app__AdminIndex-content {
+    width: 800px;
+  }
+}

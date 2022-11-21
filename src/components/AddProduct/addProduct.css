@@ -1,0 +1,116 @@
+.app__sideBarAdmin-form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.app__sideBarAdmin-title {
+  font-size: 24px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.app__sideBarAdmin-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.textarea {
+  width: 800px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.textarea-label {
+  font-size: 14px;
+  color: #222;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.app__SideBarAdmin-input {
+  width: 400px;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.new-icons {
+  width: 40px;
+  height: 40px;
+  color: #00a651;
+}
+.img-input {
+  display: flex;
+  width: 100%;
+
+  gap: 5px;
+}
+
+.input-button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer;
+}
+
+.file {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.just-hr {
+  border-left: 1px solid #ddd;
+  height: 100px;
+  margin: 10px 15px;
+}
+
+.file-upload {
+  border: 1px solid #ddd;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.file-upload:hover {
+  background-color: #ddd;
+}
+
+.new-title {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+}
+
+.new-button {
+  border: none;
+  background-color: #00a651;
+  color: #fff;
+  width: 200px;
+  padding: 20px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.new-button:hover {
+  background-color: #222;
+}
+
+.span-light {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.old-img {
+  width: 60px;
+  height: auto;
+}
