@@ -34,7 +34,7 @@ Repozytorium nie zawiera pliku .env, wszystkie dane pobierane z firebase nie bę
 - Panel Administracyjny
   - Panel (wyświetla aktulaną ilość instrukcji w poszczególnych kategoriach)
   - Lista instrukcji (możliwość dodawania, edycji i usuwania instrukcji)
-    -Edycja instrukcji (możliwość wymiany zdjęć lub aktualizacja tekstu który wczesniej wprowadziliśmy)
+   - Edycja instrukcji (możliwość wymiany zdjęć lub aktualizacja tekstu który wczesniej wprowadziliśmy)
   - Dodawanie instrukcji (dodajemy nową instrukcje do bazy danych
 - Error 404(strona wyświetla się w przypadku braku zasobu)
   
