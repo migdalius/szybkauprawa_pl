@@ -13,7 +13,9 @@ const Hero = () => {
   return (
     <div>
       <div className="heroTitle">
-        <h1 className="mainTitle">Znajdź instrukcje zestawu do uprawy</h1>
+        <h1 className="mainTitle">
+          Znajdź instrukcje zestawu do uprawy (test)
+        </h1>
       </div>
       <div className="heroCards ls">
         <div
